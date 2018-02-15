@@ -1,0 +1,11 @@
+plugin:
+    name: 'turismo.website::lang.plugin.name'
+    description: 'turismo.website::lang.plugin.description'
+    author: Turismo
+    icon: oc-icon-list
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Websites
+        url: turismo/website/website
+        icon: icon-list

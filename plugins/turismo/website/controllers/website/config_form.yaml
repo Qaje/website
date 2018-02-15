@@ -1,0 +1,10 @@
+name: Website
+form: $/turismo/website/models/website/fields.yaml
+modelClass: Turismo\Website\Models\Website
+defaultRedirect: turismo/website/website
+create:
+    redirect: 'turismo/website/website/update/:id'
+    redirectClose: turismo/website/website
+update:
+    redirect: turismo/website/website
+    redirectClose: turismo/website/website
