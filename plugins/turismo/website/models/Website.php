@@ -15,6 +15,8 @@ class Website extends Model
     public $rules = [
     ];
 
+    public $fillable = ['title','description','status'];
+
     /**
      * @var string The database table used by the model.
      */
